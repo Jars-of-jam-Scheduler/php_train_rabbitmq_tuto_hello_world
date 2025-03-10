@@ -1,6 +1,6 @@
 services:
   rabbitmq:
-    image: rabbitmq:4-management
+    image: rabbitmq:latest
     ports:
       - "5672:5672"
       - "15672:15672"
